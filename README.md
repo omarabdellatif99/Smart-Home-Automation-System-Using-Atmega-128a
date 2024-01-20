@@ -1,25 +1,38 @@
-# Smart-Home-Automation-System-Using-Atmega-128a
-A hands-on project using Atmega 128a for a smart home setup. Features motion, flame, sound sensors, and photoresistors, integrated with buzzers, LEDs, and buttons. Utilizes GPIO, ADC, timers, and interrupts for responsive automation.
-Introduction
-Welcome to the Smart Home Automation System project repository. This system is an integration of various sensors and actuators managed by the Atmega 128a microcontroller from the AVR family, designed to create an intelligent and responsive home environment. This project combines embedded systems principles with practical application to offer a hands-on experience in home automation.
+# Smart Home Automation System Using Atmega 128a
 
-Features
-Motion Detection: Automates lighting and security alerts through motion sensing.
-Fire Safety: Employs a flame sensor for fire detection, triggering alarms and notifications.
-Adaptive Lighting: Uses a photoresistor to regulate indoor lighting based on external light levels.
-Sound Sensing: Monitors ambient noise, aiding in noise pollution control.
-User Interface: Incorporates buttons and LEDs for manual control and system feedback.
-Alert System: Utilizes buzzers for emergency notifications and system status alerts.
-Hardware Requirements
-Atmega 128a Microcontroller
-Motion Sensor
-Flame Sensor
-Photoresistor
-Sound Sensor
-Buzzers
-LEDs
-Buttons
-Power Supply
-Connecting Wires and Breadboard
-Software Requirements
-Atmel studio
+## Introduction
+Welcome to the Smart Home Automation System project repository. This system integrates various sensors and actuators managed by the Atmega 128a microcontroller from the AVR family, creating an intelligent and responsive home environment. This project bridges embedded systems theory with practical application in home automation.
+
+## Features
+- **Motion Detection**: Automates lighting and security alerts.
+- **Fire Safety**: Employs a flame sensor for early detection and alerts.
+- **Adaptive Lighting**: Regulates indoor lighting using a photoresistor.
+- **Sound Sensing**: Monitors noise levels.
+- **User Interface**: Manual control and feedback via buttons and LEDs.
+- **Alert System**: Emergency notifications using buzzers.
+
+## Hardware Requirements
+- Atmega 128a Microcontroller
+- Motion Sensor
+- Flame Sensor
+- Photoresistor
+- Sound Sensor
+- Buzzers
+- LEDs
+- Buttons
+- Power Supply
+- Connecting Wires and Breadboard
+
+## Software Requirements
+- AVR GCC Compiler
+- Atmel studio
+
+## Installation
+1. **Setup the Hardware**: Follow the circuit diagram in the `docs` directory.
+2. **Compile the Code**: Use AVR GCC Compiler.
+
+## Usage
+After installation, the system monitors sensor inputs. Adjust configurations in the code as needed.
+
+
+
